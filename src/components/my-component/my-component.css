@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+.wx-print-type-lists {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wx-print-type-lists .wx-print-type-list {
+  
+  display: flex;
+  padding: 10px 0;
+  flex-grow: 1;
+  min-width: 33.3333%;
+  max-width: 33.3333%;
+  cursor: pointer;
+}
